@@ -1,0 +1,30 @@
+{
+  "name": "gutenberg-block",
+  "version": "1.0.0",
+  "description": "A Gutenberg block to insert a link to a published post.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development --watch"
+  },
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@wordpress/babel-preset-default": "^6.2.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^12.7.0",
+    "@wordpress/components": "^21.0.1",
+    "@wordpress/data": "^6.2.0",
+    "@wordpress/element": "^2.4.0",
+    "@wordpress/i18n": "^4.11.0"
+  }
+}
